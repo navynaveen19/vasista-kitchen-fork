@@ -15,7 +15,7 @@
 		class="navbar  flex flex-row justify-between px-4 items-center p-1 "
 	>
 		<a href="/"><img src={y > 20 ? './vasista_white.png' : './vasista_white.png'} alt="logo" class="h-[60px]" /></a>
-		<div class="flex flex-row items-center">
+		<div class="flex flex-row items-center ">
 			<div class="hidden md:block">
 				<a href={prop==="other"?"/#aboutus":"#aboutus"} class=" p-4 hover:underline underline-offset-4 ease-in transition-all mx-2"
 					>About Us</a
@@ -30,10 +30,10 @@
 					>Gallery</a
 				>
 			</div>
-			<button
-				class=" h-[40px] px-3 transition-all ease-in {y > 20
+			<a href="/order"
+				class=" p-3 transition-all ease-in {y > 20
 					? ' border-white hover:bg-white hover:text-black'
-					: ' border-white hover:bg-white hover:text-black'} border-2 mx-2">Order Now</button
+					: ' border-white hover:bg-white hover:text-black'} border-2 mx-2">Order Now</a
 			>
 		</div>
 	</nav>
